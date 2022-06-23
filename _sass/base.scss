@@ -107,16 +107,22 @@ hr {
   border: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
+
 blockquote {
   padding-top: 1px;
   padding-bottom: 1px;
   margin-left: 0;
-  font-family: $mono-font-family;
-  font-size: 1rem;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 0.5rem;
   line-height: $body-line-height;
   color: #fff;
   background-color: #007ac9;
   border-radius: 5px;
+}
+
+blockquote > p {
+  margin-left: 15px;
 }
 
 blockquote > p > em {
