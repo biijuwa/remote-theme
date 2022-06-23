@@ -116,8 +116,9 @@ blockquote {
   line-height: $body-line-height;
   color: #fff;
   background-color: #007ac9;
+  border-radius: 5px;
 }
 
 blockquote > p > em {
-  margin-left: 4px;
+  margin-left: 15px;
 }
