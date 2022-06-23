@@ -108,10 +108,18 @@ hr {
 }
 
 blockquote {
+  //padding: 0.1rem 0.5rem;
+ // margin: auto auto auto 0;
   font-family: $mono-font-family;
   font-size: 1rem;
   line-height: $body-line-height;
   color: #fff;
   background-color: #007ac9;
-  border-radius: 5px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin-left: 0;
+}
+
+blockquote>p>em {
+  margin-left: 4px;
 }
