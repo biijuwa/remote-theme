@@ -106,3 +106,13 @@ hr {
   background-color: $border-color;
   border: 0;
 }
+
+blockquote {
+  padding: 0.1rem 0.5rem;
+  //margin: auto auto auto 0;
+  font-family: $mono-font-family;
+  font-size: 1rem;
+  line-height: $body-line-height;
+  color: #fff;
+  background-color: #007ac9;
+}
