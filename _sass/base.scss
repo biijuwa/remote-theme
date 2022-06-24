@@ -112,7 +112,7 @@ blockquote {
   padding-bottom: 1px;
   margin-left: 0;
   font-family: $custom-font;
-  font-size: 0.5rem;
+  font-size: 1rem;
   line-height: $body-line-height;
   color: #fff;
   background-color: #007ac9;
@@ -123,6 +123,6 @@ blockquote > p {
   margin-left: 15px;
 }
 
-blockquote > p > em {
-  margin-left: 15px;
-}
+// blockquote > p > em {
+//   margin-left: 15px;
+// }
