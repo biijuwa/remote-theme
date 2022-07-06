@@ -65,12 +65,12 @@
   &.disabled {
     &,
     &:hover {
+      font-size: 10px;
       color: white;
       cursor: default;
       background-color: #007ac9;
       background-image: none;
       box-shadow: none;
-      font-size: 10px;
     }
   }
 }
