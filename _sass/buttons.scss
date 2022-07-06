@@ -65,9 +65,9 @@
   &.disabled {
     &,
     &:hover {
-      color: rgba(102, 102, 102, 0.5);
+      color: white;
       cursor: default;
-      background-color: rgba(229, 229, 229, 0.5);
+      background-color: #007ac9;
       background-image: none;
       box-shadow: none;
     }
