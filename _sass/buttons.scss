@@ -65,7 +65,8 @@
   &.disabled {
     &,
     &:hover {
-      font-size: 14px;
+      font-size: 11px;
+      font-weight: 400;
       color: white;
       cursor: default;
       background-color: #007ac9;
