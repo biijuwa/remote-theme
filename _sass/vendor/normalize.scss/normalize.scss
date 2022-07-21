@@ -318,7 +318,11 @@ textarea {
  */
 
 details {
-  display: block;
+  display: inline-block;
+  padding: 1rem;
+  background-color: red;
+  border-radius: 0.5rem;
+
 }
 
 /*
