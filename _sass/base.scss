@@ -108,21 +108,30 @@ hr {
 }
 
 blockquote {
-  padding-top: 1px;
-  padding-bottom: 1px;
-  margin-left: 0;
-  font-family: $custom-font;
-  font-size: 1rem;
-  line-height: $body-line-height;
-  color: #fff;
-  background-color: #007ac9;
-  border-radius: 5px;
+  border-left: 5px solid #FD0;
+  padding: 10px 15px;
+  margin-left: -15px;
+  margin-right: -10px;
+  background-color: #ebf3fb;
+  border-color: #3583d6;
 }
 
 blockquote > p {
   margin-left: 15px;
 }
 
-// blockquote > p > em {
+// blockquote {
+//   padding-top: 1px;
+//   padding-bottom: 1px;
+//   margin-left: 0;
+//   font-family: $custom-font;
+//   font-size: 1rem;
+//   line-height: $body-line-height;
+//   color: #fff;
+//   background-color: #007ac9;
+//   border-radius: 5px;
+// }
+
+// blockquote > p {
 //   margin-left: 15px;
 // }
